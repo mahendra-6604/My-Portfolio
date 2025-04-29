@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahendra Reddy | Cloud & DevOps Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .animate-spin-slow {
+      animation: spin 8s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-100 text-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-900 p-4 fixed w-full z-10 top-0 shadow-lg">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/512px-Devops-toolchain.svg.png" alt="DevOps Logo" class="w-10 h-10 animate-spin-slow">
+        <span class="text-2xl font-bold text-white">Mahendra Reddy</span>
+      </div>
+      <div class="space-x-6 text-white text-lg">
+        <a href="#home" class="hover:text-blue-300">Home</a>
+        <a href="#about" class="hover:text-blue-300">About</a>
+        <a href="#skills" class="hover:text-blue-300">Skills</a>
+        <a href="#projects" class="hover:text-blue-300">Projects</a>
+        <a href="#resume" class="hover:text-blue-300">Resume</a>
+        <a href="#contact" class="hover:text-blue-300">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- Home Section -->
+<header id="home" class="pt-24 text-center p-10 bg-gray-900 min-h-screen flex flex-col justify-center items-center">
+  <!-- Hero Name -->
+  <h1 class="text-5xl font-extrabold mb-6 text-white animate-pulse">
+    Mahendra Reddy
+  </h1>
+
+  <!-- Typing Animation (Optional if you are using JavaScript) -->
+  <p class="text-2xl text-blue-300 mb-10" id="typing"></p>
+
+  <!-- Introduction Card -->
+  <div class="bg-white p-8 rounded-2xl shadow-lg max-w-2xl">
+    <p class="text-xl text-gray-700">
+      Hey! I'm Mahendra, a traditional-tech soul turned into a modern Cloud & DevOps craftsman.
+      I build architectures, streamline deployments, and automate dreams 🚀.
+    </p>
+  </div>
+</header>
+
+
+  <!-- About Section -->
+  <section id="about" class="p-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6 border-b-4 border-blue-500 inline-block hover:scale-110 transform transition duration-300">About Me</h2>
+    <p class="mb-8 text-xl leading-relaxed bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+      I'm Pallamparti Mahendra Reddy, a final-year B.Tech student in Electronics & Communication Engineering at NBKR Institute of Science & Technology. With a strong passion for Cloud Computing and DevOps, I’m gaining hands-on experience in AWS, Docker, Kubernetes, Jenkins, and Terraform. Python and Linux are my go-to tools for automating and optimizing workflows. My journey so far has been about refining my skills in system administration, version control with Git, and infrastructure automation. I enjoy working with virtualized environments, managing networks, and ensuring system security. With experience in setting up CI/CD pipelines and system monitoring scripts, I’m focused on delivering efficient and scalable solutions. I believe in continuous learning and am always looking for new challenges to tackle. When I'm not coding, I enjoy exploring new technologies and staying updated with the latest trends in the tech world.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="p-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6 border-b-4 border-blue-500 inline-block hover:scale-110 transform transition duration-300">Skills</h2>
+    <div class="mb-8 text-xl leading-relaxed bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition grid grid-cols-1 sm:grid-cols-2 gap-8 text-gray-100">
+      <div class="flex items-center space-x-4">
+        <span>☁️</span>
+        <p>AWS (EC2, S3, IAM)</p>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span>🐍</span>
+        <p>Python</p>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span>🐳</span>
+        <p>Docker & Kubernetes</p>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span>🐧</span>
+        <p>Linux & Bash Scripting</p>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span>🛠️</span>
+        <p>Terraform</p>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span>🔧</span>
+        <p>System Administration</p>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span>🚀</span>
+        <p>CI/CD (Jenkins, GitHub Actions)</p>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span>🔗</span>
+        <p>Git, GitHub, GitOps</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="p-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6 border-b-4 border-blue-500 inline-block hover:scale-110 transform transition duration-300">Projects</h2>
+    <ul class="list-disc list-inside space-y-6 text-xl">
+      <li class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-blue-400 transition"><strong>AWS EC2 with Terraform:</strong> Deployed and managed EC2 instances using Terraform IaC.</li>
+      <li class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-blue-400 transition"><strong>CI/CD Pipeline with Jenkins & GitHub:</strong> Automated build/test/deploy workflow for a sample app.</li>
+      <li class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-blue-400 transition"><strong>Dockerized Python App:</strong> Containerized a Python Flask app and pushed it to Docker Hub.</li>
+      <li class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-blue-400 transition"><strong>Linux Automation Scripts:</strong> Wrote shell scripts for system monitoring and backup tasks.</li>
+    </ul>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="p-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6 border-b-4 border-blue-500 inline-block hover:scale-110 transform transition duration-300">Resume</h2>
+    <p class="text-xl bg-gray-800 p-6 rounded-2xl shadow hover:shadow-2xl transition">
+      <a href="https://drive.google.com/file/d/1MYARZeeqZqtxhUNVRT2HdEp0mxkSrQDQ/view?usp=sharing" target="_blank" class="text-blue-400 underline hover:text-blue-200 transition">Download My Resume (PDF)</a>
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="p-8 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6 border-b-4 border-blue-500 inline-block hover:scale-110 transform transition duration-300">Contact</h2>
+    <div class="space-y-4 text-xl">
+      <p>📧 <a href="mailto:pmr060604@gmail.com" class="hover:text-blue-400 transition">pmr060604@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/pallamparti-mahendra-reddy-83bb20268/" target="_blank" class="text-blue-400 underline hover:text-blue-200 transition">LinkedIn</a></p>
+      <p>💻 <a href="https://github.com/mahendra-6604" target="_blank" class="text-blue-400 underline hover:text-blue-200 transition">GitHub</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white p-6 text-center mt-12">
+    <p>&copy; 2025 Mahendra Reddy. Stay Curious. Stay DevOps. ⚙️✨</p>
+  </footer>
+
+  <!-- Typed.js Script -->
+  <script>
+    var typed = new Typed('#typing', {
+      strings: [
+        'Aspiring Cloud & DevOps Engineer 🚀',
+        'Python Enthusiast 🐍',
+        'Linux Whisperer 🐧',
+        'CI/CD Pipeline Builder 🔥',
+        'Future Cloud Architect ☁️'
+      ],
+      typeSpeed: 50,
+      backSpeed: 25,
+      loop: true
+    });
+  </script>
+
+</body>
+</html>
